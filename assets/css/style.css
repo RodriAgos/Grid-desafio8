@@ -92,6 +92,13 @@ main{
     }
 }
 
+button{
+    padding: 15px;
+    width: 40vh;
+    background-color: #efe9e1;
+    border-radius: 5%;
+}
+
 footer{
     grid-area: footer;
     display: flex;
@@ -126,9 +133,7 @@ footer{
         background-color: aliceblue;
         display: grid;
         grid-template-columns: 1fr;
-        align-self: center;   
-        /* gap: 20px;
-        padding: 20px; */
+        align-self: center;
         border: white 1px solid;
 }
 }
